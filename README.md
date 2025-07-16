@@ -1,22 +1,12 @@
-# Website Analyzer
+# React + Vite
 
-A full-stack web application to audit website accessibility using React, Node.js, and WCAG standards.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Overview
-Audits websites for accessibility compliance using Lighthouse and axe-core, with a responsive React frontend and Node.js/Express backend.
+Currently, two official plugins are available:
 
-## Features
-- Accessibility audits with WCAG-compliant reports
-- Responsive UI with dashboard, collapsible sections, filtering, and search
-- Export reports in PDF, CSV, JSON formats
-- Scan history for last 10 analyses
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tech Stack
-- **Frontend**: JavaScript, HTML, CSS, React, Tailwind CSS, Vite
-- **Backend**: Node.js, Express, Puppeteer, Lighthouse, axe-core
-- **Other**: MongoDB (in-memory), REST APIs, Web Accessibility
+## Expanding the ESLint configuration
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/chinchanalaxmi/website-analyzer.git
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
